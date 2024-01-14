@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "xtime_l.h": "c",
+        "neon.h": "c",
+        "platform.h": "c"
+    }
+}
