@@ -24,12 +24,15 @@ In this project, we leverage the NEON SIMD architecture extension to enhance the
 2. **Summation of an Array (NEON vs C):** Compare the efficiency of summing large arrays using traditional C and NEON intrinsics.
 
 3. **Matrix Multiplication (NEON vs C):** Assess performance gains in matrix multiplication through NEON intrinsics.
+4. **Edge Detection (Sobel Operator):** Implement the Sobel operator for edge detection using NEON intrinsics.
 
 ## Directory Structure
 
 - `sum_c.c`: C implementation for array summation.
 - `neon.c`: NEON implementation for array summation.
-- `main.c`: Main program to execute and measure the performance of implemented algorithms.
+- `main.c`: Main program to execute and measure the
+- `edge_detection_neon.c`: NEON implementation for edge detection.
+  performance of implemented algorithms.
 - `Makefile`: Makefile for building the project.
 - `include/`: Directory for header files.
 - `lib/`: Directory for libraries.
@@ -39,6 +42,6 @@ In this project, we leverage the NEON SIMD architecture extension to enhance the
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/zybo-neon-algorithms.git
-   cd zybo-neon-algorithms
+   git clone https://github.com/Victorvikson1996/Advanced-Processor-Architecture-and-SoC-Design
+   cd TP NEON
    ```
